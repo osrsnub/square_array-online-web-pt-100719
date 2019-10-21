@@ -1,6 +1,6 @@
-numbers= (2,4,6)
+numbers= [1,2,3,]
 
-def square_array(numbers)
-  .each |number|
-  puts "{#number} squared is {#number**2}"
+def square_array (numbers)
+numbers.each { |i| i ** 2 }
+
 end
